@@ -30,9 +30,7 @@ img {
     width: 100px;
 }
 
-div>p:first-child {
-    display: inline;
-}
+
 
 div img {
     background: black;
@@ -53,9 +51,12 @@ div img {
 }
 
 .container {
-    padding: 8%;
+    padding: 10%;
     height: 500px;
     text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top:10%;
 }
 
 .icone {
