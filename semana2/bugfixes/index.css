@@ -27,14 +27,9 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 40px;
 }
 
-
-
-div img {
-    background: black;
-}
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -105,14 +100,30 @@ table {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+    text-align: center;
 }
 
+table:nth-child(1){
+    size: 40 px 29px;
+}
+
+table:nth-child(2){
+    size: 40 px 29px;
+    
+}
+table:nth-child(3){
+   size: 40 px 29px;
+   
+}
 td button {
     background-color: #fadf63;
     width: 150px;
     height: 30px;
     border-radius: 5px;
     color: black;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 td button:hover {
